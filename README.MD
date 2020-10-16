@@ -46,9 +46,10 @@ Fade related classes: `fade-in, fade-out, fade-left, fade-right`
 
 Animation timing related classes: `anim-slow-1, anim-slow-2, anim-slow-3, anim-slow-4`
 
-**Example: **
+Example:
 
 `<div class="fade-in">I'll fade in</div>`
+
 `<div class="fade-left anim-slow-2">I'll fade from left a bit slower</div>`
 
 ## Built with
@@ -57,7 +58,7 @@ Animation timing related classes: `anim-slow-1, anim-slow-2, anim-slow-3, anim-s
 
 ## Copyright and license
 
-Code copyright 2020 Andrea Morosi. WIP
+Code copyright 2020 Andrea Morosi. MIT
 
 ## Browser support
 
@@ -65,7 +66,7 @@ BrisaJS focuses mostly on the latest versions of Chrome, Firefox, Edge and Safar
 
 ## TODOs
 
-[ ] license
+[x] license
 
 [ ] better README, with some docs
 
