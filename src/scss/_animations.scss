@@ -1,0 +1,12 @@
+.fade-in {
+  @include fadeIn;
+}
+.fade-out {
+  @include fadeOut;
+}
+.fade-left {
+  @include fadeLeft;
+}
+.fade-right {
+  @include fadeRight;
+}
