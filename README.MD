@@ -44,9 +44,15 @@ BrisaJS focuses mostly on the latest versions of Chrome, Firefox, Edge and Safar
 ## TODOs
 
 [ ] license
+
 [ ] better README, with some docs
+
 [ ] docs/demo page
+
 [ ] better options handling
+
 [ ] allow customization of some parameters such as transform values
+
 [ ] more effects
+
 [ ] scss-in-js instead of scss?
