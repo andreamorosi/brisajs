@@ -6,28 +6,52 @@ BrisaJS is a small and lightweight javascript library for smooth scroll animatio
 
 [Getting started](#getting-started)
 [Prerequisities](#prerequisities)
-[Installing](#installing)
 [Documentation](#documentation)
 [Built with](#built-with)
 [Browser support](#browser-support)
 [Copyright and license](#copyright-and-license)
 [TODOs](#todos)
 
-## Getting started
-
-How to get started, basically either download or clone the repo since it's not on npm yet
-
 ### Prerequisities
 
 [WIP] Node and npm/yarn? Idk, will see later
 
-### Installing
 
-[WIP]
+## Getting started
+
+Let's begin by installing brisajs in your project:
+
+npm install brisajs
+
+or
+
+yarn install brisajs
+
+
+Then import brisa in your js:
+
+import * as brisa from 'brisajs/src/js/main.js';
+
+This will import both the javascript and the styles to make BrisaJS work in your project.
 
 ### Documentation
 
 [WIP]
+
+Once you've added BrisaJS to your project, you can start enabling it with:
+
+brisa.start();
+
+You need to add the BrisaJS' related CSS classes to your elements to animate them.
+
+Fade related classes: fade-in, fade-out, fade-left, fade-right
+
+Animation timing related classes: anim-slow-1, anim-slow-2, anim-slow-3, anim-slow-4
+
+Example: 
+
+<div class="fade-in">I'll fade in</div>
+<div class="fade-left anim-slow-2">I'll fade from left a bit slower</div>
 
 ## Built with
 
