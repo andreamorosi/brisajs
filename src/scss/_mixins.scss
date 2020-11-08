@@ -25,22 +25,34 @@
   opacity: 0;
   transform: translateY(40px);
   @include animationsBundle;
+  @media (max-width:$mobile) {
+    transform: translateY(20px);
+  }
 }
 @mixin fadeOut {
   transition: opacity ease-in .375s, transform ease-in .375s;
   opacity: 0;
   transform: translateY(-40px);
   @include animationsBundle;
+  @media (max-width:$mobile) {
+    transform: translateY(-20px);
+  }
 }
 @mixin fadeLeft {
   transition: opacity ease-in .375s, transform ease-in .375s;
   opacity: 0;
   transform: translateX(-40px);
   @include animationsBundle;
+  @media (max-width:$mobile) {
+    transform: translateX(-20px);
+  }
 }
 @mixin fadeRight {
   transition: opacity ease-in .375s, transform ease-in .375s;
   opacity: 0;
   transform: translateX(40px);
   @include animationsBundle;
+  @media (max-width:$mobile) {
+    transform: translateX(20px);
+  }
 }
