@@ -9,7 +9,7 @@ const config = {
   entry: './src/js/main.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'brisa.js',
+    filename: 'brisa.min.js',
     library: 'brisa',
     libraryTarget: 'umd'
   },
@@ -79,7 +79,7 @@ const config = {
     new MiniCssExtractPlugin({
       // Options similar to the same options in webpackOptions.output
       // both options are optional
-      filename: "[name].css",
+      filename: "[name].min.css",
       chunkFilename: "[id].css"
     }),
     new OptimizeCssAssetsPlugin({
