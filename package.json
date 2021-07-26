@@ -1,6 +1,6 @@
 {
   "name": "brisajs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "BrisaJS is a small and lightweight javascript library for smooth scroll animations and effects, such as fade in.",
   "main": "dist/brisa.js",
   "repository": "",

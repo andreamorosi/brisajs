@@ -1,9 +1,9 @@
-export function observingScroll({root, rootMargin, threshold, targets}) {
+export function observingScroll({root, rootMargin, targets},threshold) {
   const options = {root, rootMargin, threshold, targets};
   const optionAux = {
     root: options.root,
     rootMargin: options.rootMargin,
-    threshold: options.threshold
+    threshold: threshold
   };
   let observer = new IntersectionObserver(function(entries) {
   entries.forEach(entry => {

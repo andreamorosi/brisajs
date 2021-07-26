@@ -36,9 +36,9 @@ This will import both the javascript and the styles to make BrisaJS work in your
 
 [WIP]
 
-Once you've added BrisaJS to your project, you can start enabling it with:
+Once you've added BrisaJS to your project, you can start enabling it like this, passing a threshold value if needed (default is 0.25):
 
-`brisa.start();`
+`brisa.start(0.5);`
 
 You need to add the BrisaJS' related CSS classes to your elements to animate them.
 
