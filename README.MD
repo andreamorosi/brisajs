@@ -1,5 +1,8 @@
 # BrisaJS
 
+# Archived! For a much better and newer version check VagaJS 
+## https://github.com/lotrekagency/vagajs
+
 BrisaJS is a small and lightweight javascript library for smooth scroll animations and effects, such as fade in.
 
 ## Table of contents

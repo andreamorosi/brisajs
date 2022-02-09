@@ -6,12 +6,12 @@ export function observingScroll({root, rootMargin, targets},threshold) {
     threshold: threshold
   };
   let observer = new IntersectionObserver(function(entries) {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      //callback
-      entry.target.classList.add('loaded');
-    }
-  });
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        //callback
+        entry.target.classList.add('loaded');
+      }
+    });
   },optionAux);
   options.targets.forEach(item => {
     observer.observe(item);
